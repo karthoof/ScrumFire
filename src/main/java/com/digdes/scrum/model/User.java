@@ -1,4 +1,4 @@
-package com.scrum.project.model;
+package com.digdes.scrum.model;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -12,7 +12,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "name3", length = 30, nullable = false)
+    @Column(name = "name", length = 30, nullable = false)
     private String name;
     @Column(name = "lastName", length = 40, nullable = false)
     private String lastName;
@@ -26,43 +26,4 @@ public class User {
 
     }
 
-//    public Long getId() {
-//        return id;
-//    }
-//
-//    public void setId(Long id) {
-//        this.id = id;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public String getLastName() {
-//        return lastName;
-//    }
-//
-//    public void setLastName(String lastName) {
-//        this.lastName = lastName;
-//    }
-//
-//    public Role getRoles() {
-//        return roles;
-//    }
-//
-//    public void setRoles(Role roles) {
-//        this.roles = roles;
-//    }
-//
-//    public BusyStatus getStatus() {
-//        return status;
-//    }
-//
-//    public void setStatus(BusyStatus status) {
-//        this.status = status;
-//    }
 }

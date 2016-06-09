@@ -1,5 +1,4 @@
-package com.scrum.project.model;
-
+package com.digdes.scrum.model;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
