@@ -13,14 +13,19 @@ public class Project {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
+    //
     @Column(name = "name", length = 30, nullable = false)
     private String name;
+    //
     @Column(name = "description", length = 255, nullable = false)
     private String description;
+    //
     @Column(name = "users")
-    @ManyToMany
+
     private List<User> users;
+    //
     @Column(name = "tasks")
+
     private List<Task> tasks;
 
     public Project() {
