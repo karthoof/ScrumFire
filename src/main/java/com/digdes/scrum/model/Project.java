@@ -21,11 +21,11 @@ public class Project {
     private String description;
     //
     @Column(name = "users")
-
+    @ElementCollection
     private List<User> users;
     //
     @Column(name = "tasks")
-
+    @ElementCollection
     private List<Task> tasks;
 
     public Project() {

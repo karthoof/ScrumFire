@@ -23,11 +23,12 @@ public class Task {
     @Enumerated(EnumType.STRING)
     private TaskStatus status;
 
-    @Column(name = "creator")
-
+    @JoinColumn(name = "creator")
+    @ManyToOne
     private User creator;
 
-    @Column(name = "sprint")
+    @JoinColumn(name = "sprint")
+    @ManyToOne
     private Sprint sprint;
 
     public Task() {
