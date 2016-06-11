@@ -1,4 +1,4 @@
-package com.digdes.scrum.model;
+package com.digdes.scrum.model.enums;
 
 
 public enum Role {

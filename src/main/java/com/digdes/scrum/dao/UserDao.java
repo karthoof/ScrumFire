@@ -11,5 +11,5 @@ import java.util.List;
 public interface UserDao extends CrudRepository <User, Long> {
 
     List<User> findByName (String name);
-
+    List<User> findAll();
 }

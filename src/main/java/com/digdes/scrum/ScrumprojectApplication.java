@@ -1,8 +1,8 @@
 package com.digdes.scrum;
 
 import com.digdes.scrum.dao.UserDao;
-import com.digdes.scrum.model.BusyStatus;
-import com.digdes.scrum.model.Role;
+import com.digdes.scrum.model.enums.BusyStatus;
+import com.digdes.scrum.model.enums.Role;
 import com.digdes.scrum.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

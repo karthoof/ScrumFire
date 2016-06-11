@@ -1,4 +1,5 @@
 package com.digdes.scrum.model;
+import com.digdes.scrum.model.enums.TaskStatus;
 import lombok.Data;
 
 import javax.persistence.*;

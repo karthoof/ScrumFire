@@ -1,4 +1,6 @@
 package com.digdes.scrum.model;
+import com.digdes.scrum.model.enums.BusyStatus;
+import com.digdes.scrum.model.enums.Role;
 import lombok.Data;
 
 import javax.persistence.*;
