@@ -73,12 +73,34 @@
           <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.0.RELEASE" />
           <element id="library" level="project" name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.3.3" />
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy:2.4.6" />
+          <element id="library" level="project" name="Maven: org.vaadin.spring:spring-boot-vaadin:0.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.vaadin.spring:spring-vaadin:0.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-server:7.6.3" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-sass-compiler:0.9.13" />
+          <element id="library" level="project" name="Maven: org.w3c.css:sac:1.3" />
+          <element id="library" level="project" name="Maven: com.vaadin.external.flute:flute:1.3.0.gg2" />
+          <element id="library" level="project" name="Maven: com.yahoo.platform.yui:yuicompressor:2.4.8" />
+          <element id="library" level="project" name="Maven: rhino:js:1.7R2" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-shared:7.6.3" />
+          <element id="library" level="project" name="Maven: com.vaadin.external.streamhtmlparser:streamhtmlparser-jsilver:0.0.10.vaadin1" />
+          <element id="library" level="project" name="Maven: com.vaadin.external.google:guava:16.0.1.vaadin1" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.8.3" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-client-compiled:7.5.1" />
+          <element id="library" level="project" name="Maven: com.vaadin.addon:vaadin-charts:3.0.0-alpha2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:1.4" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-themes:7.5.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/scrum.project-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="scrum.project/web/Web" />
+      <element id="directory" name="VAADIN">
+        <element id="directory" name="widgetsets">
+          <element id="gwt-compiler-output" facet="scrum.project/gwt/GWT" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
