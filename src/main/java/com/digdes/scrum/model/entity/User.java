@@ -1,4 +1,4 @@
-package com.digdes.scrum.model;
+package com.digdes.scrum.model.entity;
 import com.digdes.scrum.model.enums.BusyStatus;
 import com.digdes.scrum.model.enums.Role;
 import lombok.Data;

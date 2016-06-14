@@ -1,4 +1,4 @@
-package com.digdes.scrum.model;
+package com.digdes.scrum.model.entity;
 import lombok.Data;
 
 import javax.persistence.*;

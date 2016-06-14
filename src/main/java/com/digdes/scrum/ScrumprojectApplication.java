@@ -3,7 +3,7 @@ package com.digdes.scrum;
 import com.digdes.scrum.dao.UserDao;
 import com.digdes.scrum.model.enums.BusyStatus;
 import com.digdes.scrum.model.enums.Role;
-import com.digdes.scrum.model.User;
+import com.digdes.scrum.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

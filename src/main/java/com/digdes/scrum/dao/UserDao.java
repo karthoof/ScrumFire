@@ -1,5 +1,5 @@
 package com.digdes.scrum.dao;
-import com.digdes.scrum.model.User;
+import com.digdes.scrum.model.entity.User;
 
 import org.springframework.data.repository.CrudRepository;
 

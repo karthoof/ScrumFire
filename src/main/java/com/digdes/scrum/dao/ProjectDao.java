@@ -1,6 +1,6 @@
 package com.digdes.scrum.dao;
 
-import com.digdes.scrum.model.Project;
+import com.digdes.scrum.model.entity.Project;
 import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 
