@@ -1,4 +1,4 @@
-package com.digdes.scrum;
+package com.digdes.scrum.controllers;
 
 import com.digdes.scrum.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
